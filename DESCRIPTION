@@ -1,0 +1,21 @@
+Package: TaxaRich
+Type: Package
+Title: Calculate Taxonomy Richness
+Version: 0.0.1
+Author: Evans Ehouman
+Maintainer: Evans Ehouman <ehoumanevans@gmail.com>
+License:  GPL
+Date: 2019-04-19
+Description: Calculate taxonmy richness in a floristic dataframe. TaxonRich provides an easy way to compute taxonomic richness in a floristic data frame from a field inventory. It contains four mains functions. The data attached is related to floristic inventory carried around water body points in Côte d'Ivoire.
+Depends: R (>= 2.10)
+Roxygen: list(markdown = TRUE)
+Imports: dplyr
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/EhoumanEvans/TaxaRich
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+
