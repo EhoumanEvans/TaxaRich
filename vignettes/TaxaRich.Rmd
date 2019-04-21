@@ -1,0 +1,45 @@
+---
+title: "Taxonomy richness computing with R"
+author: "Evans Ehouman"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Taxonomy richness computing with R}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+  
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+options(tibble.print_min = 4L, tibble.print_max = 4L)
+library(dplyr)
+set.seed(1014)
+```
+
+# TaxoRich
+
+The `TaxoRich` package can be used to calculate taxon richness from floristic survey.
+
+
+## Loading `TaxoRich` package
+
+```{r setup}
+library(TaxaRich)
+```
+
+
+##`TaxoRich` package functions
+
+ * The `nbfam()` function calculates the sum of all the species from a given family.
+
+ * The `nbgr()` function calculates the sum of all species from  a genera.
+
+ * The `nblfm()` function calculates the sum of all species from  a given life form.
+
+ * The `nbchl()` function calculates the sum of all species from  a given chorological origin.
+
+## References
+
+## Add your tricks
+Please contact Evans (ehoumanevans@gmail.com) if you would like to add here a code that may be useful for users (code authorship will be respected).
