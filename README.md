@@ -30,8 +30,8 @@ install.packages("TaxaRich")
 The latest version from Github (in development):
 
 ``` r
-install.packages("devtools")
-devtools::install_github("EhoumanEvans/TaxaRich")
+install.packages("remotes")
+remotes::install_github("EhoumanEvans/TaxaRich")
 ```
 
 To use it :
