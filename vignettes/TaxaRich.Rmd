@@ -17,19 +17,19 @@ library(dplyr)
 set.seed(1014)
 ```
 
-# TaxoRich
+# TaxaRich
 
-The `TaxoRich` package can be used to calculate taxon richness from floristic survey.
+The `TaxaRich` package can be used to calculate taxon richness from floristic survey.
 
 
-## Loading `TaxoRich` package
+## Loading `TaxaRich` package
 
 ```{r setup}
 library(TaxaRich)
 ```
 
 
-##`TaxoRich` package functions
+##`TaxaRich` package functions
 
  * The `nbfam()` function calculates the sum of all the species from a given family.
 
